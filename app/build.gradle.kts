@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace = "com.bignerdranch.android.criminalintent"
+    namespace = "com.example.laba666"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.bignerdranch.android.criminalintent"
+        applicationId = "com.example.laba666"
         minSdk = 21
         targetSdk = 34
         versionCode = 1
