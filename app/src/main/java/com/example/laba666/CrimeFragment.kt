@@ -97,6 +97,10 @@ class CrimeFragment : Fragment() {
             }
         }
     }
+    override fun onStop() {
+        super.onStop()
+        crimeDetailViewModel.saveCrime(crime)
+    }
 
     private fun updateUI() {
         titleField.setText(crime.title)
